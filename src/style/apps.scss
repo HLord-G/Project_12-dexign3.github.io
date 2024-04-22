@@ -47,14 +47,15 @@
 
     .content{
         width: 1024px;
-        border: 1px solid rgba(248, 248, 255, 0.116);
+        // border: 1px solid rgba(248, 248, 255, 0.116);
         height:100%;
+        position: relative;
 
    
 
         .profile{
             @include flex_displayrow();
-            margin-top:50px;
+            margin-top:60px;
 
             // border: 1px solid ghostwhite;
             
@@ -67,7 +68,7 @@
                     height:140px;
                     width:140px;
                     border-radius:50%;
-                    border: 1px solid darkgoldenrod;
+                    border: 1px solid #e9b875;
 
                     background-image: url('../img/profile.jpg');
                     background-position: center;
@@ -98,6 +99,7 @@
                     h1{
                         @include rowdies_regular();
                         font-size: 40px;
+                        word-spacing: -3px;
                     }
                 }
 
@@ -110,7 +112,7 @@
                     .liner{
                         width:110px;
                         height:7px;
-                        background-color: darkgoldenrod;
+                        background-color: #e9b875;
                         border-radius:10px;
                     }
                 }
@@ -127,7 +129,7 @@
                         font-weight: 400;
                         
                         &:hover{
-                            color: darkgoldenrod;
+                            color: #e9b875;
                         }
 
                         &:first-child{
@@ -147,10 +149,11 @@
         .mysumm{
             margin-top:80px;
             width:100%;
-            padding:20px;
-            border: 2px dashed darkgoldenrod;
+            padding:25px;
+            border: 2px dashed #e9b875;
             border-radius:10px;
             text-align: center;
+            position: relative;
 
             h1{
                 @include rowdies_regular();
@@ -164,11 +167,53 @@
                 font-size: 20px;
                 text-align: justify;
             }
+
+            .btn_contact{
+                width:100%;
+                margin-top:35px;
+
+                span{
+                    padding:8px 35px;
+                    background-color: #e9b875;
+                    color: #1c232b;
+                    font-size: 20px;
+                    border-radius: 10px;
+                    font-weight: bold;
+                    @include rowdies_regular();
+                }
+                
+            }
+
+            .side_img{
+                background-image: url('../img/sides.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                width:70px;
+                height:70px;
+                position: absolute;
+                top:-5px;
+                left:-5px;
+            }
+
+            .side_img_b{
+                background-image: url('../img/sides.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                width:70px;
+                height:70px;
+                position: absolute;
+                transform: rotate(180deg);
+                bottom:-5px;
+                right:-5px;
+            }
         }
 
 
         .notification{
-
+            position: relative;
+            top:120px;
+            left:0;
+            padding:30px;
         }
     }
 
@@ -214,7 +259,14 @@
 
 
 
-@media(max-width:544px){
+@media(max-width:640px){
+    .main{
+        height:100%;
+    }
+}
+
+
+@media(max-width:557px){
     .main{
         .content{
             width: 100%;
@@ -228,13 +280,14 @@
                 .info_name{
                     .titlename{
                         h1{
-                            font-size: 30px;
+                            // font-size: 30px;
                         }
                     }
 
                     .nav{
+                        display: none;
                         a{
-                            font-size: 15px;
+                            // font-size: 15px;
                         }
                     }
                 }
@@ -264,13 +317,13 @@
                 .info_name{
                     .titlename{
                         h1{
-                            font-size: 30px;
+                            // font-size: 30px;
                         }
                     }
 
                     .nav{
                         a{
-                            font-size: 15px;
+                            // font-size: 15px;
                         }
                     }
                 }
@@ -280,3 +333,197 @@
     }
 }
 
+
+
+@media(max-width:484px){
+    .main{
+        .content{
+            width: 100%;
+            padding:20px;
+
+            .profile{
+                .img{
+                    .img_avatar{
+                        height:110px;
+                        width:110px;
+                    }
+                }    
+                .info_name{
+                    .titlename{
+                        h1{
+                            font-size: 25px;
+                        }
+                    }
+
+                    .nav{
+                        a{
+                            // font-size: 15px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+@media(max-width:425px){
+    .main{
+        .content{
+            width: 100%;
+            padding:20px;
+
+            .profile{
+                .img{
+                    .img_avatar{
+                        height:110px;
+                        width:110px;
+                    }
+                }    
+                .info_name{
+                    .titlename{
+                        h1{
+                            // font-size: 25px;
+                        }
+                    }
+
+                    .nav{
+                        display: none;
+                        a{
+                            // font-size: 15px;
+                        }
+                    }
+                }
+            }
+
+
+
+            .mysumm{
+                h1{
+                    font-size: 25px;
+                }
+
+                p{
+                    font-size: 15px;
+                }
+            }
+
+        }
+    }
+}
+
+
+//395
+@media(max-width:395px){
+    .main{
+        .content{
+            width: 100%;
+            padding:20px;
+
+            .profile{
+                .img{
+                    .img_avatar{
+                        height:110px;
+                        width:110px;
+                    }
+                }    
+                .info_name{
+                    .titlename{
+                        h1{
+                            // font-size: 20px;
+                        }
+                    }
+
+                    .nav{
+                        display: none;
+                        a{
+                            // font-size: 15px;
+                        }
+                    }
+                }
+            }
+
+
+
+            .mysumm{
+                h1{
+                    font-size: 25px;
+                }
+
+                p{
+                    font-size: 15px;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+@media(max-width:351px){
+    .main{
+        .content{
+            width: 100%;
+            padding:20px;
+
+            .profile{
+                .img{
+                    .img_avatar{
+                        height:100px;
+                        width:100px;
+                    }
+                }    
+                .info_name{
+                    .titlename{
+                        h1{
+                            font-size: 25px;
+                        }
+                    }
+
+                    .nav{
+                        display: none;
+                        a{
+                            // font-size: 15px;
+                        }
+                    }
+                }
+            }
+
+
+
+            .mysumm{
+                h1{
+                    font-size: 25px;
+                }
+
+                p{
+                    font-size: 15px;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+@media(max-width:318px){
+    .main{
+        display:none;
+    }
+
+    body{
+        color:ghostwhite;
+        content: 'Harold Abeme Guzman';
+        clear: both;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:100%;
+        width: 100%;
+        z-index:999;
+    }
+}

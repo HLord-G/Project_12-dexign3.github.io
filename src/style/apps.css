@@ -15,15 +15,15 @@
 }
 .main .content {
   width: 1024px;
-  border: 1px solid rgba(248, 248, 255, 0.116);
   height: 100%;
+  position: relative;
 }
 .main .content .profile {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 .main .content .profile .img {
   width: 100;
@@ -37,7 +37,7 @@
   height: 140px;
   width: 140px;
   border-radius: 50%;
-  border: 1px solid darkgoldenrod;
+  border: 1px solid #e9b875;
   background-image: url("../img/profile.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -63,6 +63,7 @@
   font-weight: 400;
   font-style: normal;
   font-size: 40px;
+  word-spacing: -3px;
 }
 .main .content .profile .info_name .line {
   flex: 0;
@@ -74,7 +75,7 @@
 .main .content .profile .info_name .line .liner {
   width: 110px;
   height: 7px;
-  background-color: darkgoldenrod;
+  background-color: #e9b875;
   border-radius: 10px;
 }
 .main .content .profile .info_name .nav {
@@ -89,7 +90,7 @@
   font-weight: 400;
 }
 .main .content .profile .info_name .nav a:hover {
-  color: darkgoldenrod;
+  color: #e9b875;
 }
 .main .content .profile .info_name .nav a:first-child {
   margin-left: 5px;
@@ -97,10 +98,11 @@
 .main .content .mysumm {
   margin-top: 80px;
   width: 100%;
-  padding: 20px;
-  border: 2px dashed darkgoldenrod;
+  padding: 25px;
+  border: 2px dashed #e9b875;
   border-radius: 10px;
   text-align: center;
+  position: relative;
 }
 .main .content .mysumm h1 {
   font-family: "Rowdies", sans-serif;
@@ -114,6 +116,49 @@
   font-size: 20px;
   text-align: justify;
 }
+.main .content .mysumm .btn_contact {
+  width: 100%;
+  margin-top: 35px;
+}
+.main .content .mysumm .btn_contact span {
+  padding: 8px 35px;
+  background-color: #e9b875;
+  color: #1c232b;
+  font-size: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.main .content .mysumm .side_img {
+  background-image: url("../img/sides.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+.main .content .mysumm .side_img_b {
+  background-image: url("../img/sides.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  transform: rotate(180deg);
+  bottom: -5px;
+  right: -5px;
+}
+.main .content .notification {
+  position: relative;
+  top: 120px;
+  left: 0;
+  padding: 30px;
+}
+
 @media (max-width: 1036px) {
   .main .content {
     width: 100%;
@@ -133,7 +178,12 @@
     flex: 3;
   }
 }
-@media (max-width: 544px) {
+@media (max-width: 640px) {
+  .main {
+    height: 100%;
+  }
+}
+@media (max-width: 557px) {
   .main .content {
     width: 100%;
     padding: 20px;
@@ -142,11 +192,8 @@
     margin-right: 20px;
     justify-content: flex-end;
   }
-  .main .content .profile .info_name .titlename h1 {
-    font-size: 30px;
-  }
-  .main .content .profile .info_name .nav a {
-    font-size: 15px;
+  .main .content .profile .info_name .nav {
+    display: none;
   }
 }
 @media (max-width: 486px) {
@@ -158,10 +205,93 @@
     height: 130px;
     width: 130px;
   }
-  .main .content .profile .info_name .titlename h1 {
-    font-size: 30px;
+}
+@media (max-width: 484px) {
+  .main .content {
+    width: 100%;
+    padding: 20px;
   }
-  .main .content .profile .info_name .nav a {
+  .main .content .profile .img .img_avatar {
+    height: 110px;
+    width: 110px;
+  }
+  .main .content .profile .info_name .titlename h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 425px) {
+  .main .content {
+    width: 100%;
+    padding: 20px;
+  }
+  .main .content .profile .img .img_avatar {
+    height: 110px;
+    width: 110px;
+  }
+  .main .content .profile .info_name .nav {
+    display: none;
+  }
+  .main .content .mysumm h1 {
+    font-size: 25px;
+  }
+  .main .content .mysumm p {
     font-size: 15px;
+  }
+}
+@media (max-width: 395px) {
+  .main .content {
+    width: 100%;
+    padding: 20px;
+  }
+  .main .content .profile .img .img_avatar {
+    height: 110px;
+    width: 110px;
+  }
+  .main .content .profile .info_name .nav {
+    display: none;
+  }
+  .main .content .mysumm h1 {
+    font-size: 25px;
+  }
+  .main .content .mysumm p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 351px) {
+  .main .content {
+    width: 100%;
+    padding: 20px;
+  }
+  .main .content .profile .img .img_avatar {
+    height: 100px;
+    width: 100px;
+  }
+  .main .content .profile .info_name .titlename h1 {
+    font-size: 25px;
+  }
+  .main .content .profile .info_name .nav {
+    display: none;
+  }
+  .main .content .mysumm h1 {
+    font-size: 25px;
+  }
+  .main .content .mysumm p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 318px) {
+  .main {
+    display: none;
+  }
+  body {
+    color: ghostwhite;
+    content: "Harold Abeme Guzman";
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
   }
 }/*# sourceMappingURL=apps.css.map */
