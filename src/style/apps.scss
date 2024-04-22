@@ -6,3 +6,237 @@
 
 
 
+.main{
+
+    height:100vh;
+    width:100%;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+
+
+    @mixin flex_displayrow(){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row;
+    }
+
+
+
+    .content{
+        width: 1024px;
+        border: 1px solid rgba(248, 248, 255, 0.116);
+        height:100%;
+
+        .profile{
+            @include flex_displayrow();
+            margin-top:50px;
+
+            // border: 1px solid ghostwhite;
+            
+            .img{
+                width:100;
+                flex: 1;
+                @include flex_displayrow();
+
+                .img_avatar{
+                    height:140px;
+                    width:140px;
+                    border-radius:50%;
+                    border: 1px solid darkgoldenrod;
+
+                    background-image: url('../img/profile.jpg');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+
+            .info_name{
+                // border: 1px solid red;
+                width:100%;
+                height:100%;
+                flex: 4;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-flow: column;
+
+
+
+                .titlename{
+                    flex: 1;
+                    height:100%;
+                    width:100%;
+                    margin-bottom:5px;
+
+                    h1{
+                        font-size: 40px;
+                    }
+                }
+
+                .line{
+                    flex: 0;
+                    width:100%;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    .liner{
+                        width:110px;
+                        height:7px;
+                        background-color: darkgoldenrod;
+                        border-radius:10px;
+                    }
+                }
+
+                .nav{
+                    margin-top:10px;
+                    flex: 1;
+                    height:100%;
+                    width:100%;
+
+                    a{
+                        margin-right:20px;
+                        font-size: 20px;
+                        font-weight: 400;
+                        
+                        &:hover{
+                            color: darkgoldenrod;
+                        }
+
+                        &:first-child{
+                            margin-left: 5px;
+                        }
+                    }
+                    // border: 1px solid yellow;
+                }
+
+
+            }
+
+        }
+
+
+
+        .mysumm{
+            margin-top:80px;
+            width:100%;
+            padding:20px;
+            border: 2px dashed darkgoldenrod;
+            border-radius:10px;
+        }
+    }
+
+
+}
+
+
+
+
+
+
+@media(max-width:1036px){
+    .main{
+        .content{
+            width: 100%;
+            padding:20px;
+        }
+    }
+}
+
+
+
+
+@media(max-width:962px){
+    .main{
+        .content{
+            width: 100%;
+            padding:20px;
+
+            .profile{
+                .img{
+                    margin-right:20px;
+                    justify-content: flex-end;
+                }    
+                .info_name{
+                    flex: 3;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+@media(max-width:544px){
+    .main{
+        .content{
+            width: 100%;
+            padding:20px;
+
+            .profile{
+                .img{
+                    margin-right:20px;
+                    justify-content: flex-end;
+                }    
+                .info_name{
+                    .titlename{
+                        h1{
+                            font-size: 30px;
+                        }
+                    }
+
+                    .nav{
+                        a{
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+
+@media(max-width:486px){
+    .main{
+        .content{
+            width: 100%;
+            padding:20px;
+
+            .profile{
+                .img{
+                    .img_avatar{
+                        height:130px;
+                        width:130px;
+                    }
+                }    
+                .info_name{
+                    .titlename{
+                        h1{
+                            font-size: 30px;
+                        }
+                    }
+
+                    .nav{
+                        a{
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
