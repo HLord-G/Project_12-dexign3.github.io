@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +8,6 @@
 .main {
   height: 100vh;
   width: 100%;
-  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,6 +59,9 @@
   margin-bottom: 5px;
 }
 .main .content .profile .info_name .titlename h1 {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 40px;
 }
 .main .content .profile .info_name .line {
@@ -97,8 +100,20 @@
   padding: 20px;
   border: 2px dashed darkgoldenrod;
   border-radius: 10px;
+  text-align: center;
 }
-
+.main .content .mysumm h1 {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.main .content .mysumm p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: justify;
+}
 @media (max-width: 1036px) {
   .main .content {
     width: 100%;
