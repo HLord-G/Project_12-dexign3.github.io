@@ -6,10 +6,16 @@
 
     <title>Harold Guzman</title>
 
+    <script src="src/lib/jquery/jquery.js"></script>
+    <script src="src/lib/jquery/jui.js"></script>
+    <script src="src/lib/jquery/jq_ui_youch_punch.js"></script>
+
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="src/style/apps.css">
+
+    <script src="src/script/mydata.js"></script>
 
 
 </head>
@@ -35,52 +41,102 @@
                         <div class="liner"></div>
                     </div>
                     <div class="nav">
-                        <a href="#">Home</a>
-                        <a href="#">About</a>
-                        <a href="#">Project</a>
-                        <a href="#">Contact</a>
+                        <a class="swappage" id="home">Home</a>
+                        <a class="swappage" id="about">About</a>
+                        <a class="swappage" id="project">Project</a>
+                        <a class="swappage" id="contact">Contact</a>
                     </div>
                 </div>
             </div>
 
 
 
+            <span id="displayer">
+                <div class="mysumm">
+                    
+                    <h1>Im a Web and Graphic Designer</h1>
 
-            <div class="mysumm">
+                    <p>
+                        With a passion for creativity and a keen eye for design, I specialize in crafting compelling digital experiences that resonate with audiences. From concept to execution, I thrive on bringing ideas to life through innovative web development and striking graphic design. 
+                    </p>
+                    <p>
+                        Whether it's designing intuitive user interfaces or conceptualizing captivating visual identities, I'm dedicated to delivering solutions that not only meet but exceed expectations. Let's collaborate and elevate your online presence together.
+                    </p>
                 
-                <h1>Im a Web and Graphic Designer</h1>
-
-                <p>
-                    With a passion for creativity and a keen eye for design, I specialize in crafting compelling digital experiences that resonate with audiences. From concept to execution, I thrive on bringing ideas to life through innovative web development and striking graphic design. 
-                </p>
-                <p>
-                    Whether it's designing intuitive user interfaces or conceptualizing captivating visual identities, I'm dedicated to delivering solutions that not only meet but exceed expectations. Let's collaborate and elevate your online presence together.
-                </p>
-
-                <div class="btn_contact">
-                    <span id="contact"> Contact Me </span>
+                    <div class="btn_contact">
+                        <span id="contact"> Contact Me </span>
+                    </div>
                 </div>
-
-
-                <div class="side_img"></div>
-                <div class="side_img_b"></div>
-
-            </div>
+            </span>
 
 
 
             <div class="notification">
-                sdfe
+                <!-- sdfe -->
             </div>
 
-
-
-
         </div>
-
-
-
     </div>
+
+
+
+
+
+    <script>
+
+        
+        function pageActive() {
+            for (let index = 0; index < $(".swappage").length; index++) {
+                if ($(".swappage").eq(index).attr("id") == myData["actPAge"]) {
+                    $(".swappage").eq(index).attr("class", "swappage active_a")
+                }else{
+                    $(".swappage").eq(index).attr("class", "swappage non_active_a")
+                }
+            }
+        }pageActive()
+
+
+
+
+
+
+        $(".swappage").click(function(){
+            myData["actPAge"] = $(this).attr("id")    
+
+           switch (myData["actPAge"]) {
+                case "home":
+                        $("#displayer").html(myData["homeDisplay"])
+                        pageActive()
+                    break;
+                    
+                case "about":
+                        $("#displayer").html(myData["aboutDisplay"])
+                        pageActive()
+                    break;
+
+                case "project":
+
+                    break;
+
+                case "contact":
+
+                    break;
+           }
+        })
+
+
+
+
+
+
+
+        $(document).on("click", "#contact", function(){
+            alert("nice");
+        });
+
+        
+  
+    </script>
 
 
 </body>
