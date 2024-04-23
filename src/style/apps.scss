@@ -367,6 +367,7 @@
                             justify-content: flex-start;
                             align-items: center;
                             flex-flow: row;
+                            margin-bottom:10px;
 
                             transition:.4s;
 
@@ -701,4 +702,32 @@
         width: 100%;
         z-index:999;
     }
+}
+
+
+
+
+
+
+@media(max-width:900px){
+    .main{
+
+        .content{
+            #displayer{
+                .about_harold{
+                    
+                    .about_content{
+                        margin-top:20px;
+                        flex-flow: column;
+
+                        .sideabout:nth-child(2){
+                            margin-top:55px;
+                            padding:0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
