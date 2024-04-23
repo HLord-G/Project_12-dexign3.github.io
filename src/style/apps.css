@@ -299,6 +299,47 @@
 .main .content .about_harold .about_content .sideabout:nth-child(2) .mycontacts a:hover {
   color: #e9b875;
 }
+.main .content #projects {
+  padding: 20px;
+}
+.main .content #projects .projects_items {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  padding: 20px;
+  gap: 30px;
+}
+.main .content #projects .projects_items .frame {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .content #projects .projects_items .title {
+  flex: 2;
+  padding: 20px 20px 20px 35px;
+}
+.main .content #projects .projects_items .title h1 {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+}
+.main .content #projects .projects_items:nth-child(even) .frame {
+  order: 1;
+}
+.main .content #projects .projects_items:nth-child(even) .title {
+  order: 2;
+}
+.main .content #projects .projects_items:nth-child(odd) .frame {
+  order: 2;
+}
+.main .content #projects .projects_items:nth-child(odd) .title {
+  order: 1;
+  text-align: right;
+}
 .main .content .notification {
   position: relative;
   top: 100px;
@@ -462,5 +503,32 @@
   .main .content #displayer .about_harold .about_content .sideabout:nth-child(2) {
     margin-top: 55px;
     padding: 0;
+  }
+}
+@media (max-width: 736px) {
+  .main .content #displayer #projects .projects_items {
+    gap: 0;
+    flex-flow: column;
+  }
+  .main .content #displayer #projects .projects_items .frame {
+    flex: 1;
+    order: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main .content #displayer #projects .projects_items .title {
+    flex: 4;
+    order: 2;
+    padding: 20px 20px 20px 35px;
+    text-align: center;
+    width: 100%;
+  }
+  .main .content #displayer #projects .projects_items .title h1 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    margin: 0;
   }
 }/*# sourceMappingURL=apps.css.map */

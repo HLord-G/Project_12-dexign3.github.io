@@ -385,6 +385,62 @@
         }
 
 
+        #projects{
+            padding:20px;
+
+            .projects_items{
+
+                margin-top:35px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-flow: row;
+                // border: 1px solid ghostwhite;
+                padding:20px;
+                gap:30px;
+
+                .frame{
+                    flex: 1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .title{
+                    flex: 2;
+                    padding:20px 20px 20px 35px;
+
+                    h1{
+                        @include rowdies_regular();
+                        font-size: 35px;
+                    }
+                }
+
+            }
+
+
+            .projects_items:nth-child(even){
+                .frame{
+                    order: 1;
+                }
+                .title{
+                    order: 2;
+                }
+            }
+
+            .projects_items:nth-child(odd){
+                .frame{
+                    order: 2;
+                }
+                .title{
+                    order: 1;
+                    text-align: right;
+                }
+            }
+
+        }
+
+
         .notification{
             position: relative;
             top:100px;
@@ -407,6 +463,8 @@
             @include rowdies_regular();
 
         }
+
+        
     }
 
 
@@ -488,6 +546,7 @@
         }
     }
 }
+
 
 
 
@@ -747,3 +806,49 @@
     }
 
 }
+
+
+
+
+
+@media(max-width:736px){
+    .main{
+
+        .content{
+            #displayer{
+                #projects{
+
+                    
+
+                    .projects_items{
+                        gap:0;
+                        flex-flow: column;
+                        .frame{
+                            flex: 1;
+                            order: 1;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+        
+                        .title{
+                            flex: 4;
+                            order: 2;
+                            padding:20px 20px 20px 35px;
+                            text-align: center;
+                            width:100%;
+                        
+                            h1{
+                                @include rowdies_regular();
+                                font-size: 35px;
+                                margin:0;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
