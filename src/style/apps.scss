@@ -280,6 +280,7 @@
                     padding:0;
                     color:rgba(248, 248, 255, 0.411) ;
                 }
+
             }
             .about_content{
                 margin-top:20px;
@@ -296,11 +297,26 @@
                         text-align: justify;
                     }
 
+                    input{
+                        // border: #e9b875 1px solid;
+                    }
+
                     .btn_contact{
                         width:100%;
                         margin-top:35px;
         
                         span{
+                            padding:8px 35px;
+                            background-color: #e9b875;
+                            color: #1c232b;
+                            font-size: 20px;
+                            border-radius: 10px;
+                            font-weight: bold;
+                            @include rowdies_regular();
+                            cursor: pointer;
+                        }
+
+                        button{
                             padding:8px 35px;
                             background-color: #e9b875;
                             color: #1c232b;

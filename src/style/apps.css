@@ -246,6 +246,18 @@
   font-style: normal;
   cursor: pointer;
 }
+.main .content .about_harold .about_content .sideabout .btn_contact button {
+  padding: 8px 35px;
+  background-color: #e9b875;
+  color: #1c232b;
+  font-size: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  cursor: pointer;
+}
 .main .content .about_harold .about_content .sideabout h3 {
   font-family: "Rowdies", sans-serif;
   font-weight: 700;
