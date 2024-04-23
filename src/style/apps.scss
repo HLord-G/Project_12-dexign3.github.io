@@ -387,9 +387,25 @@
 
         .notification{
             position: relative;
-            top:120px;
+            top:100px;
             left:0;
             padding:30px;
+            margin-bottom:20px;
+            font-size: x-large;
+
+            text-align: center;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column;
+
+            border-top: #e9b875 1px dotted;
+            border-bottom: #e9b875 1px dotted;
+
+
+            @include rowdies_regular();
+
         }
     }
 

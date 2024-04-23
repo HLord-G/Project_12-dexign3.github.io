@@ -102,7 +102,25 @@ let myData = {
             </div>
         
     </div>
-    `
+    `,
+
+
+
+
+    projectDisplay:`
+    <iframe src="https://www.behance.net/embed/project/179501181?ilo0=1" height="216" width="310"  lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+
+
+    <div id="projects">
+
+        <div class="projects_items">
+                
+        </div>
+
+    </div>
+
+    
+    `,
 
 
 
