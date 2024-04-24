@@ -18,6 +18,19 @@
     <script src="src/script/mydata.js"></script>
 
 
+
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "VIVicOGNJQZvLrFat",
+        });
+    })();
+    </script>
+
+
 </head>
 <body>
     
@@ -129,42 +142,19 @@
 
 
  
+
         
-  
+        $(document).on("click","#sent",  function(){
+            sendMail()
+        })
     </script>
+    <script src="src/script/email.js"> </script>
+    
 
 
 
 
 
-
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-
-<script>
-document.getElementById('sent').addEventListener('click', function(event) {
-    event.preventDefault(); // Prevent the default form submission
-
-    // Get the user input values
-    var fullName = document.getElementById('fullName').value;
-    var email = document.getElementById('email').value;
-    var message = document.getElementById('message').value;
-
-    // Send the email using EmailJS
-    emailjs.send("service_bv9m1r4", "template_a7fwh93", {
-        from_name: fullName,
-        to_email: email,
-        message_html: message
-    }).then(function(response) {
-        console.log("Email sent successfully!", response);
-        // Clear the form fields after successful submission
-        document.getElementById('fullName').value = '';
-        document.getElementById('email').value = '';
-        document.getElementById('message').value = '';
-    }, function(error) {
-        console.error("Error sending email:", error);
-    });
-});
-</script>
 
 
 
