@@ -166,7 +166,7 @@ let myData = {
 
 
         <div class="about_content">
-                <form id="contactForm" class="form-control w-full sideabout"> 
+                <div id="contactForm" class="form-control w-full sideabout"> 
                     <br>        
                     
                     <label class="form-control w-full">
@@ -204,7 +204,7 @@ let myData = {
                     </div>
 
                     
-            </form>
+            </div>
 
 
                     <div class="sideabout">
