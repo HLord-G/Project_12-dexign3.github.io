@@ -173,7 +173,7 @@ let myData = {
                         <div class="label">
                             <span class="label-text">FULL NAME</span>
                         </div>
-                        <input type="text" id="fullName" placeholder="Harold Guzman" class="input input-bordered w-full" />
+                        <input type="text" id="name" placeholder="Harold Guzman" class="input input-bordered w-full" />
                         <div class="label">
                         </div>
                     </label>
