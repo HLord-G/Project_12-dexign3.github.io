@@ -543,4 +543,23 @@
     font-size: 35px;
     margin: 0;
   }
+}
+.project_items {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.project_items .responsive-image {
+  max-width: 872px; /* Set the maximum width */
+  max-height: 450px; /* Set the maximum height */
+  width: 100%; /* Ensure the image fills its container */
+  height: auto; /* Maintain aspect ratio */
+}
+.project_items figure {
+  max-width: 872px; /* Set the maximum width */
+  max-height: 450px; /* Set the maximum height */
+  width: 100%; /* Ensure the image fills its container */
+  height: auto; /* Maintain aspect ratio */
 }/*# sourceMappingURL=apps.css.map */

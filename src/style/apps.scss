@@ -868,3 +868,29 @@
     }
 }
 
+
+
+
+.project_items{
+    // border: #e9b875 1px solid;
+    padding:10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    .responsive-image {
+        max-width: 872px; /* Set the maximum width */
+        max-height: 450px; /* Set the maximum height */
+        width: 100%; /* Ensure the image fills its container */
+        height: auto; /* Maintain aspect ratio */
+      }
+
+      figure{
+        max-width: 872px; /* Set the maximum width */
+        max-height: 450px; /* Set the maximum height */
+        width: 100%; /* Ensure the image fills its container */
+        height: auto; /* Maintain aspect ratio */
+      }
+      
+}

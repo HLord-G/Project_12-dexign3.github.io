@@ -113,13 +113,72 @@ let myData = {
 
     <div id="projects">
 
+
+
+    
+
+
+        <a href="https://www.behance.net/gallery/196870227/Dashboard-DS-1/modules/1114987621">
+                <div class="project_items bg-base-100">
+                    <div class="responsive-image">
+                        <img src="src/img/2.jpeg" alt="Your Image">
+                    </div>
+                    <figure>
+                        <h3 class="text-gray-100 group-hover:underline group-hover:underline-offset-4">
+                        DashBoard
+                        </h3>
+
+                        <p class="mt-1.5 text-pretty text-xs text-gray-100">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nobis, quia soluta quisquam
+                            voluptatem nemo.
+                        </p>
+                    </figure>
+                </div>
+            </a>
+
+
+        <a href="https://www.behance.net/gallery/196870227/Dashboard-DS-1/modules/1114987621">
+            <div class="project_items bg-base-100">
+                <div class="responsive-image">
+                    <img src="src/img/2.jpeg" alt="Your Image">
+                </div>
+                <figure>
+                    <h3 class="text-gray-100 group-hover:underline group-hover:underline-offset-4">
+                    DashBoard
+                    </h3>
+
+                    <p class="mt-1.5 text-pretty text-xs text-gray-100">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nobis, quia soluta quisquam
+                        voluptatem nemo.
+                    </p>
+                </figure>
+            </div>
+        </a>
+
+
+
         <div class="projects_items">
-                <div class="frame">
-                <iframe src="https://www.behance.net/embed/project/179501181?ilo0=1" height="216" width="310"  lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+        <a href="https://www.behance.net/gallery/196870227/Dashboard-DS-1/modules/1114987621" class="group block">
+            <img
+                src="src/img/1.jpg"
+                alt=""
+                class="h-[350px] w-full object-cover  sm:h-[450px]"
+            />
+
+            <div class="mt-3 flex justify-between text-sm">
+                <div>
+                <h3 class="text-gray-100 group-hover:underline group-hover:underline-offset-4">
+                    DashBoard
+                </h3>
+
+                <p class="mt-1.5 text-pretty text-xs text-gray-100">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nobis, quia soluta quisquam
+                    voluptatem nemo.
+                </p>
                 </div>
-                <div class="title">
-                    <h1> TO DO App</h1>
-                </div>
+
+            </div>
+            </a>
         </div>
 
 
