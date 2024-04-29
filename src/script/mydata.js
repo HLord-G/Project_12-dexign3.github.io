@@ -116,97 +116,140 @@ let myData = {
             <br>
             <br>
 
-    
 
-
-        <a href="https://www.behance.net/gallery/196870227/Dashboard-DS-1/modules/1114987621">
+        <a target="_blank" href="https://www.behance.net/gallery/196870227/Dashboard-DS-1/modules/1114987621">
                 <div class="project_items bg-base-100">
+
                     <div class="responsive-image">
-                        <img src="src/img/2.jpeg" alt="Your Image">
+                        <img src="src/img/1.jpg" alt="Your Image" loading="lazy">
                     </div>
-                    <figure>
+
+
+                    <div class="project_info">
                         <h3 class="text-gray-100 group-hover:underline group-hover:underline-offset-4">
                         DashBoard
                         </h3>
 
                         <p class="mt-1.5 text-pretty text-xs text-gray-100">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nobis, quia soluta quisquam
-                            voluptatem nemo.
+                        Welcome to your personalized dashboard! Here, you can access important information and tools to help you stay organized and efficient in managing your tasks and projects.
                         </p>
-                    </figure>
+                    </div>
+
                 </div>
             </a>
 
 
-        <a href="https://www.behance.net/gallery/196870227/Dashboard-DS-1/modules/1114987621">
+        <a target="_blank" href="https://www.behance.net/gallery/179501181/TO-DO-List/modules/1013939653">
             <div class="project_items bg-base-100">
+            
                 <div class="responsive-image">
-                    <img src="src/img/2.jpeg" alt="Your Image">
+                    <img src="src/img/3.jpg" alt="Your Image" loading="lazy">
                 </div>
-                <figure>
+                
+
+
+                <div class="project_info">
                     <h3 class="text-gray-100 group-hover:underline group-hover:underline-offset-4">
-                    DashBoard
+                    To Do List
                     </h3>
 
                     <p class="mt-1.5 text-pretty text-xs text-gray-100">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nobis, quia soluta quisquam
-                        voluptatem nemo.
+                    Keep track of your tasks and stay organized with our easy-to-use To-Do List feature. Whether it's work-related deadlines, personal errands, or long-term projects, this tool helps you manage your time effectively and prioritize your tasks efficiently.
                     </p>
-                </figure>
+                </div>
+
             </div>
         </a>
 
 
 
-        <div class="projects_items">
-        <a href="https://www.behance.net/gallery/196870227/Dashboard-DS-1/modules/1114987621" class="group block">
-            <img
-                src="src/img/1.jpg"
-                alt=""
-                class="h-[350px] w-full object-cover  sm:h-[450px]"
-            />
+        <a target="_blank" href="https://www.behance.net/gallery/196869803/People-List">
+            <div class="project_items bg-base-100">
+            
+                <div class="responsive-image" loading="lazy">
+                    <img src="src/img/2.jpg" alt="Your Image">
+                </div>
+                
 
-            <div class="mt-3 flex justify-between text-sm">
-                <div>
-                <h3 class="text-gray-100 group-hover:underline group-hover:underline-offset-4">
-                    DashBoard
-                </h3>
+                <div class="project_info">
+                    <h3 class="text-gray-100 group-hover:underline group-hover:underline-offset-4">
+                        People List
+                    </h3>
 
-                <p class="mt-1.5 text-pretty text-xs text-gray-100">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nobis, quia soluta quisquam
-                    voluptatem nemo.
-                </p>
+                    <p class="mt-1.5 text-pretty text-xs text-gray-100">
+                        Stay connected with your team members and contacts using our People List feature. Whether you're collaborating on projects, scheduling meetings, or simply keeping track of important contacts, this tool helps you stay organized and maintain effective communication.
+                    </p>
                 </div>
 
             </div>
-            </a>
-        </div>
+        </a>
 
 
-        <div class="projects_items">
-            <div class="frame">
+        <a target="_blank" href="https://www.behance.net/gallery/178369569/PRG-090584">
+        <div class="project_items bg-base-100">
+        
+                <div class="responsive-image" loading="lazy">
+                    <img src="src/img/4.jpg" alt="Your Image">
+                </div>
+                
 
-            <iframe src="https://www.behance.net/embed/project/196869803?ilo0=1" height="216" width="310"  lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+                <div class="project_info">
+                    <h3 class="text-gray-100 group-hover:underline group-hover:underline-offset-4">
+                        Polo Uniform for Barangay Lapasan
+                    </h3>
 
+                    <p class="mt-1.5 text-pretty text-xs text-gray-100">
+                        Show your pride for Barangay Lapasan with our official Polo Uniform. Whether you're representing the barangay at community events, meetings, or day-to-day activities, our high-quality polo shirts offer comfort, style, and durability. Stay united with your fellow community members and showcase your commitment to serving and supporting Barangay Lapasan.
+                    </p>
+                </div>
             </div>
+        </a>
 
-            <div class="title">
-                <h1> People List</h1>
-                    </div>
+
+
+        <a target="_blank" href="https://www.behance.net/gallery/178369365/PRG-090870">
+        <div class="project_items bg-base-100">
+        
+                <div class="responsive-image" loading="lazy">
+                    <img src="src/img/5.jpg" alt="Your Image">
+                </div>
+                
+
+                <div class="project_info">
+                    <h3 class="text-gray-100 group-hover:underline group-hover:underline-offset-4">
+                        Barangay Lapasan Gym
+                    </h3>
+
+                    <p class="mt-1.5 text-pretty text-xs text-gray-100">
+                    Barangay Captain Julito D. Ogsimer and Congressman Rufus Rodriguez introduce Lapasan Gym, a groundbreaking project that will revolutionize our community's fitness and well-being.
+                    </p>
+                </div>
             </div>
+        </a>
 
 
-        <div class="projects_items">
-            <div class="frame">
+        <a target="_blank" href="https://www.behance.net/gallery/178369255/PRG-08709">
+        <div class="project_items bg-base-100">
+        
+                <div class="responsive-image" loading="lazy">
+                    <img src="src/img/6.jpg" alt="Your Image">
+                </div>
+                
 
-            <iframe src="https://www.behance.net/embed/project/196870227?ilo0=1" height="216" width="310"  lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+                <div class="project_info">
+                    <h3 class="text-gray-100 group-hover:underline group-hover:underline-offset-4">
+                        Barangay Lapasan Icon
+                    </h3>
 
+                    <p class="mt-1.5 text-pretty text-xs text-gray-100">
+                    Introducing the redesigned Barangay Lapasan Icon featuring Barangay Captain HON. Julito D. Ogsimer. As a symbol of our community's identity and leadership, this icon represents the vision and dedication of Barangay Captain Ogsimer in serving the people of Lapasan.
+                    </p>
+                </div>
             </div>
+        </a>
 
-            <div class="title">
-                <h1> DashBoard DS 1</h1>
-                    </div>
-        </div>
+
+
 
 
     </div>

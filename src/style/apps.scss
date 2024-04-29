@@ -882,15 +882,13 @@
     margin-bottom:30px;
     
     .responsive-image {
-        max-width: 872px; /* Set the maximum width */
-        max-height: 450px; /* Set the maximum height */
-        width: 100%; /* Ensure the image fills its container */
-        height: auto; /* Maintain aspect ratio */
+        // max-width: 872px; /* Set the maximum width */
+        // max-height: 450px; /* Set the maximum height */
+        // width: 100%; /* Ensure the image fills its container */
+        // height: auto; /* Maintain aspect ratio */
       }
 
-      figure{
-        max-width: 872px; /* Set the maximum width */
-        max-height: 450px; /* Set the maximum height */
+      .project_info{
         width: 100%; /* Ensure the image fills its container */
         height: auto; /* Maintain aspect ratio */
       }
