@@ -117,205 +117,62 @@ let myData = {
             <br>
 
 
-        <a target="_blank" href="https://www.behance.net/gallery/196870227/Dashboard-DS-1/modules/1114987621">
-                <div class="project_items bg-base-100">
-
-                    <div class="responsive-image">
-                        <img src="src/img/1.jpg" alt="Your Image" loading="lazy">
-                    </div>
 
 
-                    <div class="project_info">
-                        <h3 class="text-gray-100 group-hover:underline group-hover:underline-offset-4">
-                        DashBoard
-                        </h3>
-
-                        <p class="mt-1.5 text-pretty text-xs text-gray-100">
-                        Welcome to your personalized dashboard! Here, you can access important information and tools to help you stay organized and efficient in managing your tasks and projects.
-                        </p>
-                    </div>
-
-                </div>
-            </a>
-
-
-        <a target="_blank" href="https://www.behance.net/gallery/179501181/TO-DO-List/modules/1013939653">
-            <div class="project_items bg-base-100">
-            
-                <div class="responsive-image">
-                    <img src="src/img/3.jpg" alt="Your Image" loading="lazy">
-                </div>
-                
-
-
-                <div class="project_info">
-                    <h3 class="text-gray-100 group-hover:underline group-hover:underline-offset-4">
-                    To Do List
-                    </h3>
-
-                    <p class="mt-1.5 text-pretty text-xs text-gray-100">
-                    Keep track of your tasks and stay organized with our easy-to-use To-Do List feature. Whether it's work-related deadlines, personal errands, or long-term projects, this tool helps you manage your time effectively and prioritize your tasks efficiently.
-                    </p>
-                </div>
-
-            </div>
-        </a>
-
-
-
-        <a target="_blank" href="https://www.behance.net/gallery/196869803/People-List">
-            <div class="project_items bg-base-100">
-            
-                <div class="responsive-image" loading="lazy">
-                    <img src="src/img/2.jpg" alt="Your Image">
-                </div>
-                
-
-                <div class="project_info">
-                    <h3 class="text-gray-100 group-hover:underline group-hover:underline-offset-4">
-                        People List
-                    </h3>
-
-                    <p class="mt-1.5 text-pretty text-xs text-gray-100">
-                        Stay connected with your team members and contacts using our People List feature. Whether you're collaborating on projects, scheduling meetings, or simply keeping track of important contacts, this tool helps you stay organized and maintain effective communication.
-                    </p>
-                </div>
-
-            </div>
-        </a>
-
-
-        <a target="_blank" href="https://www.behance.net/gallery/178369569/PRG-090584">
-        <div class="project_items bg-base-100">
-        
-                <div class="responsive-image" loading="lazy">
-                    <img src="src/img/4.jpg" alt="Your Image">
-                </div>
-                
-
-                <div class="project_info">
-                    <h3 class="text-gray-100 group-hover:underline group-hover:underline-offset-4">
-                        Polo Uniform for Barangay Lapasan
-                    </h3>
-
-                    <p class="mt-1.5 text-pretty text-xs text-gray-100">
-                        Show your pride for Barangay Lapasan with our official Polo Uniform. Whether you're representing the barangay at community events, meetings, or day-to-day activities, our high-quality polo shirts offer comfort, style, and durability. Stay united with your fellow community members and showcase your commitment to serving and supporting Barangay Lapasan.
-                    </p>
-                </div>
-            </div>
-        </a>
-
-
-
-        <a target="_blank" href="https://www.behance.net/gallery/178369365/PRG-090870">
-        <div class="project_items bg-base-100">
-        
-                <div class="responsive-image" loading="lazy">
-                    <img src="src/img/5.jpg" alt="Your Image">
-                </div>
-                
-
-                <div class="project_info">
-                    <h3 class="text-gray-100 group-hover:underline group-hover:underline-offset-4">
-                        Barangay Lapasan Gym
-                    </h3>
-
-                    <p class="mt-1.5 text-pretty text-xs text-gray-100">
-                    Barangay Captain Julito D. Ogsimer and Congressman Rufus Rodriguez introduce Lapasan Gym, a groundbreaking project that will revolutionize our community's fitness and well-being.
-                    </p>
-                </div>
-            </div>
-        </a>
-
-
-        <a target="_blank" href="https://www.behance.net/gallery/178369255/PRG-08709">
-        <div class="project_items bg-base-100">
-        
-                <div class="responsive-image" loading="lazy">
-                    <img src="src/img/6.jpg" alt="Your Image">
-                </div>
-                
-
-                <div class="project_info">
-                    <h3 class="text-gray-100 group-hover:underline group-hover:underline-offset-4">
-                        Barangay Lapasan Icon
-                    </h3>
-
-                    <p class="mt-1.5 text-pretty text-xs text-gray-100">
-                    Introducing the redesigned Barangay Lapasan Icon featuring Barangay Captain HON. Julito D. Ogsimer. As a symbol of our community's identity and leadership, this icon represents the vision and dedication of Barangay Captain Ogsimer in serving the people of Lapasan.
-                    </p>
-                </div>
-            </div>
-        </a>
-
+            <div class="bg-base-100 py-6 sm:py-8 lg:py-12">
+            <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
  
-        <a target="_blank" href="#">
-        <div class="project_items bg-base-100">
-        
-                <div class="responsive-image" loading="lazy">
-                    <img src="src/img/7.png" alt="Harold Port folio">
-                </div>
+              <div class="grid gap-4 sm:grid-cols-2 md:gap-3 lg:grid-cols-3 xl:grid-cols-3 xl:gap-8" id="projectdisplay">
+
                 
-
-                <div class="project_info">
-                    <h3 class="text-gray-100 group-hover:underline group-hover:underline-offset-4">
-                        PortFolio
-                    </h3>
-
-                    <p class="mt-1.5 text-pretty text-xs text-gray-100">
-                    I created this portfolio design Cover Page. :)
-                    </p>
-                </div>
+          
+                <!-- article - start -->
+                <a href="#" class="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                  <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Lorenzo Herrera" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          
+                  <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
+          
+                  <div class="relative mt-auto p-4">
+                    <span class="block text-sm text-gray-200">April 07, 2021</span>
+                    <h2 class="mb-2 text-xl font-semibold text-white transition duration-100">Working with legacy stacks</h2>
+          
+                    <span class="font-semibold text-indigo-300">Read more</span>
+                  </div>
+                </a>
+                <!-- article - end -->
+          
+                <!-- article - start -->
+                <a href="#" class="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                  <img src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Magicle" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          
+                  <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
+          
+                  <div class="relative mt-auto p-4">
+                    <span class="block text-sm text-gray-200">March 15, 2021</span>
+                    <h2 class="mb-2 text-xl font-semibold text-white transition duration-100">10 best smartphones for devs</h2>
+          
+                    <span class="font-semibold text-indigo-300">Read more</span>
+                  </div>
+                </a>
+                <!-- article - end -->
+          
+                <!-- article - start -->
+                <a href="#" class="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                  <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Martin Sanchez" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          
+                  <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
+          
+                  <div class="relative mt-auto p-4">
+                    <span class="block text-sm text-gray-200">January 27, 2021</span>
+                    <h2 class="mb-2 text-xl font-semibold text-white transition duration-100">8 High performance Notebooks</h2>
+          
+                    <span class="font-semibold text-indigo-300">Read more</span>
+                  </div>
+                </a>
+                <!-- article - end -->
+              </div>
             </div>
-        </a>
-
-        <a target="_blank" href="https://www.behance.net/gallery/197434469/Matt633-MK">
-        <div class="project_items bg-base-100">
-        
-                <div class="responsive-image" loading="lazy">
-                    <img src="src/img/8.jpg" alt="Harold Dexign">
-                </div>
-                
-
-                <div class="project_info">
-                    <h3 class="text-gray-100 group-hover:underline group-hover:underline-offset-4">
-                        Matt633 Inc.
-                    </h3>
-
-                    <p class="mt-1.5 text-pretty text-xs text-gray-100">
-                    Icon Display Outside the Matt633 Inc. MK Office.
-                    </p>
-                </div>
-            </div>
-        </a>
-
-        <a target="_blank" href="https://www.behance.net/gallery/197435361/Matt633-T-shirt-MK">
-        <div class="project_items bg-base-100">
-        
-                <div class="responsive-image" loading="lazy">
-                    <img src="src/img/9.jpg" alt="Harold Dexign">
-                </div>
-                
-
-                <div class="project_info">
-                    <h3 class="text-gray-100 group-hover:underline group-hover:underline-offset-4">
-                        Matt633 Inc. T-shirt  
-                    </h3>
-
-                    <p class="mt-1.5 text-pretty text-xs text-gray-100">
-                    MAtt633 Inc. T-shirt Block para dili lisud pag laba, puspao lang.
-                    </p>
-                </div>
-            </div>
-        </a>
-
-
-
-
-
-
-        
-
+          </div>
 
     </div>
 
