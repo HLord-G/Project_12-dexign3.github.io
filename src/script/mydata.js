@@ -248,6 +248,27 @@ let myData = {
             </div>
         </a>
 
+ 
+        <a target="_blank" href="#">
+        <div class="project_items bg-base-100">
+        
+                <div class="responsive-image" loading="lazy">
+                    <img src="src/img/7.png" alt="Harold Port folio">
+                </div>
+                
+
+                <div class="project_info">
+                    <h3 class="text-gray-100 group-hover:underline group-hover:underline-offset-4">
+                        PortFolio
+                    </h3>
+
+                    <p class="mt-1.5 text-pretty text-xs text-gray-100">
+                    I created this portfolio design Cover Page. :)
+                    </p>
+                </div>
+            </div>
+        </a>
+
 
 
 
