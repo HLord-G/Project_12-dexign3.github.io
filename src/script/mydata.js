@@ -279,7 +279,7 @@ let myData = {
 
                 <div class="project_info">
                     <h3 class="text-gray-100 group-hover:underline group-hover:underline-offset-4">
-                        MAtt633 Inc.
+                        Matt633 Inc.
                     </h3>
 
                     <p class="mt-1.5 text-pretty text-xs text-gray-100">
@@ -288,6 +288,27 @@ let myData = {
                 </div>
             </div>
         </a>
+
+        <a target="_blank" href="https://www.behance.net/gallery/197435361/Matt633-T-shirt-MK">
+        <div class="project_items bg-base-100">
+        
+                <div class="responsive-image" loading="lazy">
+                    <img src="src/img/9.jpg" alt="Harold Dexign">
+                </div>
+                
+
+                <div class="project_info">
+                    <h3 class="text-gray-100 group-hover:underline group-hover:underline-offset-4">
+                        Matt633 Inc. T-shirt  
+                    </h3>
+
+                    <p class="mt-1.5 text-pretty text-xs text-gray-100">
+                    MAtt633 Inc. T-shirt Block para dili lisud pag laba, puspao lang.
+                    </p>
+                </div>
+            </div>
+        </a>
+
 
 
 
