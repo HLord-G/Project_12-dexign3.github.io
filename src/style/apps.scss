@@ -24,6 +24,76 @@
 
 
 
+.sidemeno{
+    position:fixed;
+    top:2%;
+    right:1%;
+    cursor: pointer;
+    display: none;
+    z-index:99;
+
+    &:hover{
+        color: #e9b875;
+    }
+}
+
+.sideandroidmenu{
+    width:0;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    position: fixed;
+    top:0; left:0;
+    background-color: #1c232b;
+    z-index:999;
+    overflow: hidden;
+    transition: .3s;
+
+    a{
+        font-size: xx-large;
+        margin-top:15px;
+        cursor: pointer;
+        transition:.4s;
+
+        &:hover{
+            color: #e9b875;
+        }
+    }
+
+
+    .active_a{
+        margin-right:20px;
+        font-weight: 400;
+        color: #e9b875;
+        text-decoration: underline;
+        cursor: pointer;
+        transition: .4s;
+
+        &:first-child{
+            margin-left: 5px;
+        }
+        
+    }
+
+    .non_active_a{
+        margin-right:20px;
+        font-weight: 400;
+        transition: .4s;
+        
+        &:hover{
+            color: #e9b875;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        &:first-child{
+            margin-left: 5px;
+        }
+    }
+}
+
 .main{
 
     height:100vh;
@@ -533,6 +603,9 @@
 
 
 @media(max-width:557px){
+    .sidemeno{
+        display: block;
+    }
     .main{
         .content{
             width: 100%;
@@ -636,7 +709,13 @@
 
 
 @media(max-width:425px){
+
+    .sidemeno{
+        display: block;
+    }
+
     .main{
+
         .content{
             width: 100%;
             padding:20px;
@@ -730,6 +809,7 @@
 
 
 @media(max-width:351px){
+
     .main{
         .content{
             width: 100%;
@@ -894,3 +974,5 @@
       }
       
 }
+
+

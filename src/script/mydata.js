@@ -5,7 +5,7 @@ let myData = {
     homeDisplay: `
     <div class="mysumm">
                     
-            <h1>Im a Web and Graphic Designer</h1>
+            <h1>I'm a Web and Graphic Designer</h1>
 
             <p>
                 With a passion for creativity and a keen eye for design, I specialize in crafting compelling digital experiences that resonate with audiences. From concept to execution, I thrive on bringing ideas to life through innovative web development and striking graphic design. 
