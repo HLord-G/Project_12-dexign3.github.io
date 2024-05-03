@@ -72,20 +72,20 @@ let projects = [
     site:"#"
 },
 {
-    img:"10.png",
-    date:"",
-    name:"Joors Engr.",
-    description:"Joors Engr. is a renowned company that specializes in the manufacture of high-quality steel structures, as well as the design and installation of steel structures.",
-    link:`https://www.google.com/search?q=joors+engr.&sca_esv=450a9a9b983914d8&source=hp&ei=uj0yZv33JOqGnesPu4eSyAI&iflsig=ANes7DEAAAAAZjJLyuP3yMdjUDtsvW-UecK559OLcuk9&ved=0ahUKEwj9vKLzweyFAxVqQ2cHHbuDBCkQ4dUDCA4&uact=5&oq=joors+engr.&gs_lp=Egdnd3Mtd2l6Igtqb29ycyBlbmdyLjIFECEYoAEyBRAhGKABSO4fUABYmx5wAXgAkAEAmAGoAaABtwuqAQQwLjEyuAEDyAEA-AEBmAINoAKYDMICDhAAGIAEGJECGLEDGIoFwgILEAAYgAQYsQMYgwHCAg4QLhiABBixAxiDARiKBcICDhAuGIAEGLEDGNEDGMcBwgIIEAAYgAQYsQPCAgsQLhiABBiRAhiKBcICEBAuGIAEGNEDGEMYxwEYigXCAgoQABiABBhDGIoFwgIIEC4YgAQYsQPCAhAQABiABBixAxhDGIMBGIoFwgINEAAYgAQYsQMYQxiKBcICCxAuGIAEGLEDGIMBwgIFEC4YgATCAgUQABiABMICCxAuGIAEGMcBGK8BwgIKEC4YgAQYsQMYCsICChAAGIAEGLEDGArCAg0QLhiABBixAxiDARgKwgIHEC4YgAQYCsICBxAAGIAEGArCAgsQLhiABBjRAxjHAcICBhAAGAoYHsICBBAAGB7CAgwQLhjHARgKGB4YrwHCAggQABgKGB4YD8ICBhAuGAoYHsICBhAAGBYYHsICChAuGBYYChgeGA_CAgoQABgWGAoYHhgPwgICECbCAggQABiiBBiJBcICCBAAGIAEGKIEwgIHEAAYgAQYDZgDAJIHBDEuMTKgB4t4&sclient=gws-wiz&lqi=Cgtqb29ycyBlbmdyLloMIgpqb29ycyBlbmdykgEWZW5naW5lZXJpbmdfY29uc3VsdGFudKoBQxABKg4iCmpvb3JzIGVuZ3IoADIfEAEiGwRXxiICG8SvWwdXBFLjqXPyBPpdgPo7Rt9vrzIOEAIiCmpvb3JzIGVuZ3I#rlimm=4919305730234642103`,
-    site:"https://joorsengr.rf.gd/"
-},
-{
     img:"11.jpg",
     date:"",
     name:"Lakad Studio",
     description:"Corporation is a digital marketing agency that provides a full range of services including website design, online advertising, and social media",
     link:"https://www.google.com/search?q=lakad+studio",
     site:"https://hlord-g.github.io/lakadstudio.github.io/"
+},
+{
+    img:"10.jpg",
+    date:"",
+    name:"LaShaun Shanae Business Coaching",
+    description:"LaShaun Shanae Business Coaching with Load the file first before publish",
+    link:"https://www.behance.net/gallery/197724075/LaShaun-Shanae-Business-Coaching/modules/1120059403",
+    site:"https://hlord-g.github.io/Project_14-dexign5.github.io/"
 }
 ]
 
