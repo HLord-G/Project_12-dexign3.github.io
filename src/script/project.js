@@ -86,6 +86,30 @@ let projects = [
     description:"LaShaun Shanae Business Coaching with Load the file first before publish",
     link:"https://www.behance.net/gallery/197724075/LaShaun-Shanae-Business-Coaching/modules/1120059403",
     site:"https://hlord-g.github.io/Project_14-dexign5.github.io/"
+},
+{
+    img:"13.jpg",
+    date:"",
+    name:"Winedrops Design",
+    description:"Design 1",
+    link:"https://mir-s3-cdn-cf.behance.net/project_modules/fs/5a4d3b198613881.66443037779bc.jpg",
+    site:""
+},
+{
+    img:"14.jpg",
+    date:"",
+    name:"Winedrops Design",
+    description:"Design 2",
+    link:"https://mir-s3-cdn-cf.behance.net/project_modules/1400/940fdc198613881.6644303777097.jpg",
+    site:""
+},
+{
+    img:"12.jpg",
+    date:"",
+    name:"Winedrops Design",
+    description:"Design 3",
+    link:"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e552c8198613881.664430377751e.jpg",
+    site:""
 }
 ]
 
